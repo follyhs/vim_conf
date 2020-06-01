@@ -1,0 +1,9 @@
+prefix=/data/home/songsaifei/.local
+libdir=/data/home/songsaifei/.local/lib
+includedir=/data/home/songsaifei/.local/include
+
+Name: librdkafka++-static
+Description: The Apache Kafka C/C++ library (static)
+Version: 1.4.0
+Cflags: -I${includedir}
+Libs: -L${libdir} ${libdir}/librdkafka++-static.a -lm -lzstd -lssl -lcrypto -lcrypto -lz -ldl -lpthread -lrt

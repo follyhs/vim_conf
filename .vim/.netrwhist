@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/data/home/songsaifei/code/song-branch/be-profile/executables'
+let g:netrw_dirhist_2='/data/home/songsaifei/WorkSpace/be-profile/build-7000/prediction'
+let g:netrw_dirhist_3='/data/home/songsaifei/WorkSpace'
+let g:netrw_dirhist_4='/data/home/songsaifei/WorkSpace/cache_adapter/be-profile/test'

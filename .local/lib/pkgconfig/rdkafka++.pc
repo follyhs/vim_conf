@@ -1,0 +1,10 @@
+prefix=/data/home/songsaifei/.local
+libdir=/data/home/songsaifei/.local/lib
+includedir=/data/home/songsaifei/.local/include
+
+Name: librdkafka++
+Description: The Apache Kafka C/C++ library
+Version: 1.4.0
+Cflags: -I${includedir}
+Libs: -L${libdir} -lrdkafka++
+Libs.private: -L../src -lrdkafka -lstdc++
